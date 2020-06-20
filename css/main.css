@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     position: fixed;
     top: 0;
@@ -60,6 +62,7 @@ nav .profile-link {
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav .profile-link a {
@@ -96,7 +99,7 @@ nav .profile-link a {
 .main .welcome{
     color: white;
     font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: .5em;
     font-weight: bold;
     text-align: center;
@@ -108,9 +111,9 @@ nav .profile-link a {
     margin-top: 15%;
 }
 
-.main .button button{
+.main .button a{
     background-color: #48cfad;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     font-weight: bold;
     border: none;
