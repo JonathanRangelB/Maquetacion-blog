@@ -1,0 +1,33 @@
+.perfil__description{
+    background-color: var(--last-post-main-color);
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.perfil__description img{
+    width: 50%
+}
+
+.perfil__description--text{
+    padding-left: 5%;
+}
+
+.perfil__projects{
+    margin: 0 5%;
+}
+
+.line{
+    margin: 2em 0;
+    border: 1px solid black;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.project-container__item{
+    padding: 0 10px;
+}
