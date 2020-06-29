@@ -83,6 +83,10 @@
     gap: 5%;
 }
 
+.historical-post__item--description{
+    margin-bottom: 1em;
+}
+
 .historical-post__item figure{
     margin: 0;
 }
